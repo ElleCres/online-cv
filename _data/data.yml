@@ -7,42 +7,28 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Elle Creswell
+    tagline: Aspiring Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    email: ellecres95@gmail.com
+    website: ElleCres.github.io
+    linkedin: ellecreswell
+    github: ElleCres
     gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    stack-overflow: 18136794/elle-creswell
+    pdf: resume.pdf
 
     languages:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
     interests:
-      - item: Climbing
+      - item: Music Production
         link:
 
-      - item: Snowboarding
+      - item:
         link:
 
       - item: Cooking
@@ -58,25 +44,27 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BS in Biochemistry
+      university: University of Texas at Dallas
+      time: 2017 - 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        I spent my time at the University of Texas at Dallas (UTD) trying to better understand
+        the way the brain and body interact. My course work focused on research biochemistry
+        while my spare time was filled with personal research both in and out of books. I was
+        lucky enough to work with the wonderful Gassensmith and Price/Dussor labs and learn how to 
+        conduct basic and applied research. I finished out my time at UTD as an environmental activist. 
+        I worked with a volunteer group partnered with the Audubon Society of Texas to raise awareness about 
+        legislation the Audubon Society was supporting. I was involved in community outreach for climate action in the form
+        of letters to the editor, teach ins/community classes, and petitioning. 
+        
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: AA
+      university: Tarrant County Community College District
+      time: 2013 - 2016
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        I chose to start my college career at a community college to get my core courses out of the way, 
+        save money, and have the time to do independent research to decide on a career path.
         pretium quis, sem.
           - Bullet point
           - Bullet point
