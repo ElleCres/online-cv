@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Elle Creswell
     tagline: Aspiring Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png  #need to add
 
     # Sidebar links
     email: ellecres95@gmail.com
@@ -28,110 +28,65 @@ sidebar:
       - item: Music Production
         link:
 
-      - item:
-        link:
-
       - item: Cooking
         link:
 
+      - item:
+        link:
+
 career-profile:
-    title: Career Profile
+    title: Career Objectives
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I want to turn my understanding of natural computation and systems design into functional code.
+
 education:
     - degree: BS in Biochemistry
       university: University of Texas at Dallas
       time: 2017 - 2019
-      details: |
-        I spent my time at the University of Texas at Dallas (UTD) trying to better understand
-        the way the brain and body interact. My course work focused on research biochemistry
-        while my spare time was filled with personal research both in and out of books. I was
-        lucky enough to work with the wonderful Gassensmith and Price/Dussor labs and learn how to 
-        conduct basic and applied research. I finished out my time at UTD as an environmental activist. 
-        I worked with a volunteer group partnered with the Audubon Society of Texas to raise awareness about 
-        legislation the Audubon Society was supporting. I was involved in community outreach for climate action in the form
-        of letters to the editor, teach ins/community classes, and petitioning. 
-        
-          - Bullet point
-          - Bullet point
+
     - degree: AA
       university: Tarrant County Community College District
       time: 2013 - 2016
-      details: |
-        I chose to start my college career at a community college to get my core courses out of the way, 
-        save money, and have the time to do independent research to decide on a career path.
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Java Developer and Sound Designer (Hobby)
+      time: Dec 2021 - Present
+      company: Personal Development, Online
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          - Built Minecraft mods to learn functional programming in Java with the help of an active, open source modding community.
+          - Worked with a small development team to design sound assets and implement custom Minecraft game engine functions using Java.
+    - role: Office Adminstrative Assistant
+      time: March 2021 - August 2021
+      company: Kathy Buys Houses, Burleson, TX
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+          - Managed scheduling of utility services by phone and online, operated daily financial services using QuickBooks, and managed document filing and inventory for a realty business.
+          - Managed vendor hiring for 6-8 houses at a time with overlapping deadlines and fluctuating company needs.
+    - role: Technology Specialist
+      time: March 2020 - Nov 2020
+      company: Dr. Lisa Welch for Congress, Tarrant, Wise, and Parker Counties, TX
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Worked with the campaign team to keep all public-facing communications consistent across our multiple platforms.
+          - Managed the website, managed livestreams on social media, and worked with the campaign team on online voter engagement.
+          - Troubleshot technological issues for livestreams, the campaign Slack group, and monitored website activity.
+    - role: Enumerator
+      time: July 2020 - October 2020
+      company: U.S. Census Bureau, DFW Metroplex, TX
+      details: |
+          - Conducted in-person interviews with over 150 members of the Dallas-Fort Worth community, ensuring that residents knew the context of the questionnaire and were at ease working with a government employee. 
+          - Worked with census team members by text, email, phone, and proprietary software to complete the 2020 Census.
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Personal projects or things I'm working on for fun.
     assignments:
-      - title: Velocity
+      - title: Witches' Kitchen
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "A homely take on the tried and true magic mod theme for Minecraft. Provided sound design and some code."
 
-      - title: DevStudio
+      - title: Dr. Lisa Welch for Congress
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "A responsive website created with Squarespace with custom CSS implemented. Front page and main color theme were edited by 
+        another developer after my first pass."
 
 publications:
     title: Publications
@@ -159,23 +114,23 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Java
+        level: 10%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 10%
 
       - name: Angular
         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
-
       - name: Ruby on Rails
-        level: 85%
+        level: 5%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Ableton Live
+        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

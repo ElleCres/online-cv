@@ -2,15 +2,14 @@
 
 # Site Settings
 title: My Resume
-url: 'http://webjeda.com'
+url: 'http://ElleCres.github.io'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
 #baseurl: '/online-cv' 
 
-description: A beautiful Jekyll theme for creating resume
-# Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: blue # blue turquoise green berry orange ceramic
+description: A modified Jekyll theme for GitHub Pages.
+theme_skin: lavender
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker
@@ -32,5 +31,5 @@ compress_html: # - http://jch.penibelst.de/
 
 # Development Settings
 port: 4000
-host: 0.0.0.0
+host: localhost
 safe: false

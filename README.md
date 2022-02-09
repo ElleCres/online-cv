@@ -6,22 +6,7 @@
 > This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/). 
 > Visit her [website](http://themes.3rdwavemedia.com/) for more themes.
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
-
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
+Sharath Kumar made this into a Jekyll Theme. Checkout his live demo [here](https://online-cv.webjeda.com).
 
 ## Installation
 
@@ -33,19 +18,11 @@ I have made this into a Jekyll Theme. Checkout the live demo [here](https://onli
 
 Change all the details from one place: ``_data/data.yml``
 
-Watch my [video](https://www.youtube.com/embed/T2nx6tj-ZH4) on installation.
+Watch Sharath's [video](https://www.youtube.com/embed/T2nx6tj-ZH4) on installation.
 
 ## Skins
 
-There are 6 color schemes available:
-
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/blue.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/turquoise.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/green.jpg" width="300"/> |
-
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
+I replaced the themes with my own theme, lavender. 
 
 ## Credits
 
@@ -53,4 +30,4 @@ Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [cont
 
 Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
 
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
+Check out more themes: [**Jekyll Themes**](http://jekyll-themes.com).
