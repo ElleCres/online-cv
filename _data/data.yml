@@ -3,18 +3,19 @@
 #
 
 sidebar:
-    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: true # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: true # set to False if you want education in main section instead of in sidebar
 
     # Profile information
+    avatar: profile.png
     name: Elle Creswell
     tagline: Aspiring Developer
-    avatar: profile.png  #need to add
+    bio: Leveraging a diverse career history to create systems
 
     # Sidebar links
     email: ellecres95@gmail.com
     website: ElleCres.github.io
-    linkedin: ellecreswell
+    linkedin: elle-creswell
     github: ElleCres
     gitlab:
     stack-overflow: 18136794/elle-creswell
@@ -34,11 +35,6 @@ sidebar:
       - item:
         link:
 
-career-profile:
-    title: Career Objectives
-    summary: |
-      I want to turn my understanding of natural computation and systems design into functional code.
-
 education:
     - degree: BS in Biochemistry
       university: University of Texas at Dallas
@@ -49,7 +45,7 @@ education:
       time: 2013 - 2016
 
 experiences:
-    - role: Java Developer and Sound Designer (Hobby)
+    - role: Java Developer and Sound Designer
       time: Dec 2021 - Present
       company: Personal Development, Online
       details: |
@@ -80,35 +76,22 @@ projects:
       Personal projects or things I'm working on for fun.
     assignments:
       - title: Witches' Kitchen
-        link: "#hook"
-        tagline: "A homely take on the tried and true magic mod theme for Minecraft. Provided sound design and some code."
+        link: https://github.com/witches-kitchen/WK/commits?author=wallamide
+        tagline: "A homely take on the tried and true magic mod theme for Minecraft. Provided sound design and some code (as wallamide)."
 
       - title: Dr. Lisa Welch for Congress
-        link: "#"
+        link: https://www.lisawelch.org/
         tagline: "A responsive website created with Squarespace with custom CSS implemented. Front page and main color theme were edited by 
         another developer after my first pass."
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Enhanced Stability and Controlled Delivery of MOF-Encapsulated Vaccines and Their Immunogenic Response In Vivo
+        link: https://pubs.acs.org/doi/abs/10.1021/acsami.8b20504
+        authors: Michael A. Luzuriaga, Raymond P. Welch, Madushani Dharmarwardana, Candace E. Benjamin, Shaobo Li, Arezoo Shahrivarkevishahi, Sarah Popal, Lana H. Tuong, Chayton T. Creswell, and Jeremiah J. Gassensmith*
+        conference: ACS Applied Materials & Interfaces, 2019
 
 skills:
     title: Skills &amp; Proficiency
@@ -121,10 +104,10 @@ skills:
         level: 10%
 
       - name: HTML5 & CSS
-        level: 10%
+        level: 20%
 
-      - name: Angular
-        level: 98%
+      - name: Python
+        level: 5%
 
       - name: Ruby on Rails
         level: 5%
