@@ -18,7 +18,11 @@
 * Go to settings and set Github Pages source as master.
 * Your new site should be ready at `https://username.github.io/online-cv/`
 * Choose or tweak any of the skins in /_sass/skins/ to fit your color needs. 
+* Watch Sharath's [video](https://www.youtube.com/embed/T2nx6tj-ZH4) for help with set-up.
 
-Change all your personal details in one place: ``_data/data.yml``
-
-Watch Sharath's [video](https://www.youtube.com/embed/T2nx6tj-ZH4) on installation.
+## Personalization
+* Change all your personal details using one file: ``_data/data.yml``
+* For the main Jekyll theme: the skin can be selected by editing ``theme-skin:`` in ``_config.yml``
+* For Elle's edit: the ``theme-skin`` is set to lavender. Navigate to ``_sass/skins/_lavender.scss`` and edit the variables or file name. 
+*   -If you change the file name, make sure you do so as follows: ``_SKINNAME.scss``  then also in the header ``/*<i>SKINNAME variables</i>*/`` and change the ``theme-skin`` in ``_config.yml`` to ``skinname``. 
+* If you change the theme: go to ``_data/data.yml``, find the ``footer:>`` section at the bottom of the page and change the ``updated by <a href="YOURSITE" target="_blank" rel="nofollow">YOUR NAME</a>`` to your information. 
