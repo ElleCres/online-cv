@@ -24,5 +24,5 @@
 * Change all your personal details using one file: ``_data/data.yml``
 * For the main Jekyll theme: the skin can be selected by editing ``theme-skin:`` in ``_config.yml``
 * For Elle's edit: the ``theme-skin`` is set to lavender. Navigate to ``_sass/skins/_lavender.scss`` and edit the variables or file name. 
-/> If you change the file name, make sure you do so as follows: ``_SKINNAME.scss``  then also in the header ``/*<i>SKINNAME variables</i>*/`` and change the ``theme-skin`` in ``_config.yml`` to ``skinname``.
+** If you change the file name, make sure you do so as follows: ``_SKINNAME.scss``  then also in the header ``/*<i>SKINNAME variables</i>*/`` and change the ``theme-skin`` in ``_config.yml`` to ``skinname``.
 * If you change the theme: go to ``_data/data.yml``, find the ``footer:>`` section at the bottom of the page and change the ``updated by <a href="YOURSITE" target="_blank" rel="nofollow">YOUR NAME</a>`` to your information. 
