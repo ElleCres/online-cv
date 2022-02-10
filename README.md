@@ -1,5 +1,5 @@
 <a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="40" alt="Jekyll Themes Shield" >
+<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="25" alt="Jekyll Themes Shield" >
 </a>
 
 ## Credits
