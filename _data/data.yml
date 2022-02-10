@@ -39,7 +39,6 @@ education:
     - degree: BS in Biochemistry
       university: University of Texas at Dallas
       time: 2017 - 2019
-
     - degree: AA
       university: Tarrant County Community College District
       time: 2013 - 2016
@@ -70,6 +69,12 @@ experiences:
       details: |
           - Conducted in-person interviews with over 150 members of the Dallas-Fort Worth community, ensuring that residents knew the context of the questionnaire and were at ease working with a government employee. 
           - Worked with census team members by text, email, phone, and proprietary software to complete the 2020 Census.
+    - role: Undergraduate Research Assistant
+      time: September 2017 - May 2019
+      company: The Univeristy of Texas at Dallas
+      details: |
+          -	Worked with team members from varied educational backgrounds to conduct research science focused on equitable healthcare for all, including supplying data for a paper published by the American Chemical Society.
+          - Trained 10 team members across two laboratory settings in various research techniques, typically going from novice to trainer in several weeks. 
 projects:
     title: Project Portfolio
     assignments:
@@ -79,7 +84,7 @@ projects:
 
       - title: Dr. Lisa Welch for Congress
         link: https://www.lisawelch.org/
-        tagline: "A responsive website created with Squarespace and custom CSS. Front page icons and main color theme were edited by another developer after my first pass."
+        tagline: "A responsive website created with Squarespace and custom CSS. Front page icons and main color theme were edited by another developer months after initial release."
 
 publications:
     title: Publications
@@ -91,16 +96,17 @@ publications:
         conference: ACS Applied Materials & Interfaces, 2019
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills &amp; Proficiencies
 
     toolset:
+      - name: HTML/CSS
+        level: 15%
+
       - name: Java
         level: 10%
 
       - name: Javascript & jQuery
         level: 10%
-
-
 
       - name: Python
         level: 5%
@@ -112,4 +118,4 @@ skills:
         level: 70%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>, updated by <a href="https://github.com/ElleCres" target="_blank" rel="nofollow">Elle Creswell</a>
