@@ -23,8 +23,8 @@
 * Change all your personal details using one file: ``_data/data.yml``
 * For the main Jekyll theme (forked from [here](https://github.com/sharu725/online-cv): the skin can be selected by editing ``theme-skin:`` in ``_config.yml`` to one of the 6 themes. 
 * Theme creation is as follows: 
-* > create a file titled ``_SKINNAME.scss``  
-* > edit the header in your scss file to be ``/*<i>SKINNAME variables</i>*/``
-* > update the hex code values in the scss file to match your desired color scheme. colors can be found and customized by finding the hexcode at [colorhexa](https://www.colorhexa.com/).
+> create a file titled ``_SKINNAME.scss``  
+> edit the header in your scss file to be ``/*<i>SKINNAME variables</i>*/``
+> update the hex code values in the scss file to match your desired color scheme. colors can be found and customized by finding the hexcode at [colorhexa](https://www.colorhexa.com/).
 * > change the ``theme-skin`` in ``_config.yml`` to ``skinname``.
 * If you change the theme: go to ``_data/data.yml``, find the ``footer:>`` section at the bottom of the page and change the ``updated by <a href="YOURSITE" target="_blank" rel="nofollow">YOUR NAME</a>`` to your information. 
