@@ -19,9 +19,9 @@ h6 {
 }
 
 a {
-  color: darken($theme-color, 20%);
+  color: darken($theme-color, 35%);
   &:hover {
-    text-decoration: underline;
+    font-weight: bold;
     color: darken($theme-color, 42%);
   }
   &:focus {
@@ -41,6 +41,9 @@ p {
   margin: 0 auto;
   position: relative;
   @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+  a {
+    text-decoration: underline;
+  }
 }
 
 .sidebar-wrapper {
@@ -121,7 +124,7 @@ p {
       }
     }
     .meta {
-      color: rgba(256, 256, 256, 0.6);
+      color: rgba(230, 224, 238, 0.6);
       font-weight: 500;
       margin-bottom: 0px;
       margin-top: 0;
@@ -224,6 +227,7 @@ p {
   }
 
   .publication-title {
+    text-decoration: underline;
     font-size: 16px;
     font-weight: 400;
     color: $text-color;

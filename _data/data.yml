@@ -10,7 +10,7 @@ sidebar:
     avatar: profile.png
     name: Elle Creswell
     tagline: Aspiring Developer
-    bio: Leveraging a diverse career history to create systems
+    bio: I'm a generalist, so you don't have to be. 
 
     # Sidebar links
     email: ellecres95@gmail.com
@@ -26,13 +26,13 @@ sidebar:
         level: Native
 
     interests:
-      - item: Music Production
+      - item: Music production
         link:
 
       - item: Cooking
         link:
 
-      - item:
+      - item: Breaking software to troubleshoot it
         link:
 
 education:
@@ -71,22 +71,19 @@ experiences:
           - Conducted in-person interviews with over 150 members of the Dallas-Fort Worth community, ensuring that residents knew the context of the questionnaire and were at ease working with a government employee. 
           - Worked with census team members by text, email, phone, and proprietary software to complete the 2020 Census.
 projects:
-    title: Projects
-    intro: >
-      Personal projects or things I'm working on for fun.
+    title: Project Portfolio
     assignments:
       - title: Witches' Kitchen
         link: https://github.com/witches-kitchen/WK/commits?author=wallamide
-        tagline: "A homely take on the tried and true magic mod theme for Minecraft. Provided sound design and some code (as wallamide)."
+        tagline: "Adding sounds and contributing code to this cottagecore magic mod for minecraft."
 
       - title: Dr. Lisa Welch for Congress
         link: https://www.lisawelch.org/
-        tagline: "A responsive website created with Squarespace with custom CSS implemented. Front page and main color theme were edited by 
-        another developer after my first pass."
+        tagline: "A responsive website created with Squarespace and custom CSS. Front page icons and main color theme were edited by another developer after my first pass."
 
 publications:
     title: Publications
-    intro: |
+    intro: 
     papers:
       - title: Enhanced Stability and Controlled Delivery of MOF-Encapsulated Vaccines and Their Immunogenic Response In Vivo
         link: https://pubs.acs.org/doi/abs/10.1021/acsami.8b20504
@@ -103,8 +100,7 @@ skills:
       - name: Javascript & jQuery
         level: 10%
 
-      - name: HTML5 & CSS
-        level: 20%
+
 
       - name: Python
         level: 5%
