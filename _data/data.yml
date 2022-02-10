@@ -80,8 +80,8 @@ projects:
     assignments:
       - title: Witches' Kitchen
         link: https://github.com/witches-kitchen/WK/commits?author=wallamide
-        tagline: "A cottagecore styled magic mod for minecraft (shows my commits as wallamide)"
-
+        tagline: "A cottagecore styled magic mod for minecraft (as wallamide)"
+        
       - title: Dr. Lisa Welch for Congress
         link: https://www.lisawelch.org/
         tagline: "A responsive website created with Squarespace and custom CSS. Front page icons and main color theme were edited by another developer months after initial release."
