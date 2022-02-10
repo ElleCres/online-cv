@@ -80,7 +80,7 @@ projects:
     assignments:
       - title: Witches' Kitchen
         link: https://github.com/witches-kitchen/WK/commits?author=wallamide
-        tagline: "Adding sounds and contributing code to this cottagecore magic mod for minecraft."
+        tagline: "A cottagecore styled magic mod for minecraft (shows my commits as wallamide)"
 
       - title: Dr. Lisa Welch for Congress
         link: https://www.lisawelch.org/
@@ -118,4 +118,5 @@ skills:
         level: 70%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>, updated by <a href="https://github.com/ElleCres" target="_blank" rel="nofollow">Elle Creswell</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>,
+    updated by <a href="https://github.com/ElleCres" target="_blank" rel="nofollow">Elle Creswell</a> 

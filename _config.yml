@@ -2,13 +2,13 @@
 
 # Site Settings
 title: My Resume
-url: 'http://ElleCres.github.io'
+url: 'https://ellecres.dev'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
 #baseurl: '/online-cv' 
 
-description: A modified Jekyll theme for GitHub Pages.
+description: Elle's online resume. 
 theme_skin: lavender
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
