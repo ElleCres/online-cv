@@ -14,9 +14,9 @@ sidebar:
 
     # Sidebar links
     email: ellecres95@gmail.com
-    website: ElleCres.github.io
+    website: ellecres.dev
     linkedin: elle-creswell
-    github: ElleCres
+    github: ellecres
     gitlab:
     stack-overflow: 18136794/elle-creswell
     pdf: resume.pdf
@@ -32,7 +32,7 @@ sidebar:
       - item: Cooking
         link:
 
-      - item: Breaking software to troubleshoot it
+      - item: Breaking and troubleshooting software
         link:
 
 education:
@@ -80,8 +80,8 @@ projects:
     assignments:
       - title: Witches' Kitchen
         link: https://github.com/witches-kitchen/WK/commits?author=wallamide
-        tagline: "A cottagecore styled magic mod for minecraft (as wallamide)"
-        
+        tagline: "A cottagecore styled magic mod for minecraft (as wallamide)."
+
       - title: Dr. Lisa Welch for Congress
         link: https://www.lisawelch.org/
         tagline: "A responsive website created with Squarespace and custom CSS. Front page icons and main color theme were edited by another developer months after initial release."

@@ -37,6 +37,8 @@ p {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   background: $theme-color;
+  border-left: 2px $smoky-white;
+  border-radius: 5px ;
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
@@ -50,29 +52,49 @@ p {
   grid-column: span 3;
   order: 2;
   background: $theme-color;
+  border-right: 2px darken($theme-color, 25%);
+  border-radius: 5px;
   color: #fff;
   a {
     color: #fff;
   }
+  li {
+    font-size: 16px;
+  }
+  ul{
+    list-style-type:inherit;
+    padding-left:10%;
+  }
+  .section-title {
+    font-size:20px;
+  }
   .profile-container {
-    padding: 30px;
+    padding: 20px;
+    border: 2px darken($theme-color, 15%);
+    border-radius: 5px;
     //background: darken($theme-color, 10%);
     background: rgba(0, 0, 0, 0.3);
     text-align: center;
     color: #fff;
   }
   .name {
-    font-size: 32px;
+    font-size: 3.5 rem;
     font-weight: 900;
     margin-top: 0;
     margin-bottom: 10px;
   }
   .tagline {
     color: rgba(256, 256, 256, 0.6);
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
+  }
+  .bio {
+    font-size:1.5rem;
+    font-weight:300;
+    margin-top:10px;
+    margin-bottom:10px;
   }
   .profile {
     margin-bottom: 15px;
@@ -80,20 +102,28 @@ p {
 
   .avatar {
     //used for profile image
-    max-width: 100px;
+    max-width: 150px;
     margin-bottom: 15px;
     border: 0px solid #cbd;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  .contact-container{
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
   }
   .contact-list {
     .fas,
     .fab,
     .far {
       margin-right: 5px;
-      font-size: 18px;
-      vertical-align: middle;
+      font-size: 26px;
+      vertical-align: baseline;
     }
+
     li {
       margin-bottom: 15px;
       &:last-child {
@@ -103,16 +133,18 @@ p {
   }
   .container-block {
     padding: 30px;
+    border: 2px darken($smoky-white, 15%);
+    border-radius: 5px;
   }
   .container-block-title {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 15px;
   }
   .degree {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 0;
     margin-bottom: 5px;
   }
@@ -128,11 +160,13 @@ p {
       font-weight: 500;
       margin-bottom: 0px;
       margin-top: 0;
+      font-size: 16px;
     }
     .time {
       color: rgba(256, 256, 256, 0.6);
       font-weight: 500;
       margin-bottom: 0px;
+      font-size:16px;
     }
   }
   .languages-container {
@@ -144,16 +178,18 @@ p {
   .languages-list {
     margin-bottom: 0;
     li {
+      font-size: 18px;
+      padding-left: 30%;
       margin-bottom: 10px;
       &:last-child {
         margin-bottom: 0;
       }
     }
   }
-
   .interests-list {
     margin-bottom: 0;
     li {
+      font-size: 18px;
       margin-bottom: 10px;
       &:last-child {
         margin-bottom: 0;
@@ -165,35 +201,43 @@ p {
 .main-wrapper {
   grid-column: span 7;
   background: #fff;
-  padding: 60px;
+  padding: 40px;
+  border: 2px darken($theme-color, 25%);
+  border-width: 15px;
+  border-radius: 5px;
   .section-title {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     color: darken($theme-color, 15%);
     position: relative;
-    margin-top: 0;
+    margin-top: 5px;
     margin-bottom: 20px;
   }
   .section {
-    margin-bottom: 60px;
+    font-size: 18px;
+    margin-bottom: 40px;
   }
 
   .experiences-section,
   .educations-section {
     .item {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
+      //background-color: darken(#fff, 15%);
+      border: 5px darken($theme-color, 25%);
+      border-radius: 8px;
     }
   }
   .upper-row {
     position: relative;
     overflow: hidden;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
   }
   .job-title,
   .degree {
     color: $text-color;
-    font-size: 16px;
+    position:sticky;
+    font-size: 18px;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
@@ -202,16 +246,18 @@ p {
     position: absolute;
     right: 0;
     top: 0;
-    color: $text-grey;
+    color: lighten($text-color-secondary, 15%);
+    font-size:16px;
   }
   .company,
   .university {
     margin-bottom: 10px;
-    color: $text-grey;
-  }
-
-  .project-title {
+    margin-top:0;
+    color: lighten($text-color-secondary, 15%);
     font-size: 16px;
+  }
+  .project-title {
+    font-size: 20px;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 5px;
@@ -225,18 +271,21 @@ p {
       margin-bottom: 15px;
     }
   }
-
   .publication-title {
-    text-decoration: underline;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 400;
     color: $text-color;
     margin-bottom: 1px;
   }
   .publication-authors {
     font-style: italic;
+    font-size:1.5rem;
     color: $text-grey;
+    margin-top: 1px;
     margin-bottom: 1px;
+  }
+  .publication-conference{
+    font-size:1.5rem;
   }
   .publications-section {
     .intro {
@@ -254,16 +303,16 @@ p {
     overflow: hidden;
   }
   .level-title {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 0;
     margin-bottom: 12px;
   }
   .level-bar {
-    height: 12px;
+    height: 16px;
     background: $smoky-white;
   }
   .level-bar-inner {
-    height: 12px;
+    height: 16px;
     background: lighten($theme-color, 15%);
   }
 }
