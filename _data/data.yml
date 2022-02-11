@@ -7,7 +7,7 @@ sidebar:
     education: true # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    avatar: profile.png
+    avatar: profile.png #need to shrink
     name: Elle Creswell
     tagline: Aspiring Developer
     bio: I'm a generalist so you don't have to be. 
@@ -45,7 +45,7 @@ education:
 
 experiences:
     - role: Java Developer and Sound Designer
-      time: Dec 2021 - Present
+      time: December 2021 - Present
       company: Personal Development, Online
       details: |
           - Built Minecraft mods to learn functional programming in Java with the help of an active, open source modding community.
