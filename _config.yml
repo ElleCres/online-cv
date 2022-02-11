@@ -6,7 +6,7 @@ url: 'https://ellecres.dev'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
-baseurl: '/online-resume' 
+#baseurl: '/online-resume' 
 
 description: Elle's online resume. 
 theme_skin: lavender
