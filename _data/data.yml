@@ -7,7 +7,7 @@ sidebar:
     education: true # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    avatar: profile.png
+    avatar: profile.png #need to shrink
     name: Elle Creswell
     tagline: Aspiring Developer
     bio: I'm a generalist so you don't have to be. 
@@ -45,7 +45,7 @@ education:
 
 experiences:
     - role: Java Developer and Sound Designer
-      time: Dec 2021 - Present
+      time: December 2021 - Present
       company: Personal Development, Online
       details: |
           - Built Minecraft mods to learn functional programming in Java with the help of an active, open source modding community.
@@ -57,7 +57,7 @@ experiences:
           - Managed scheduling of utility services by phone and online, operated daily financial services using QuickBooks, and managed document filing and inventory for a realty business.
           - Managed vendor hiring for 6-8 houses at a time with overlapping deadlines and fluctuating company needs.
     - role: Technology Specialist
-      time: March 2020 - Nov 2020
+      time: March 2020 - November 2020
       company: Dr. Lisa Welch for Congress, Tarrant, Wise, and Parker Counties, TX
       details: |
           - Worked with the campaign team to keep all public-facing communications consistent across our multiple platforms.
