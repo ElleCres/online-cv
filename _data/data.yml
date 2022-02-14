@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: true # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: true # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -71,7 +71,7 @@ experiences:
           - Worked with census team members by text, email, phone, and proprietary software to complete the 2020 Census.
     - role: Undergraduate Research Assistant
       time: September 2017 - May 2019
-      company: The Univeristy of Texas at Dallas
+      company: The Univeristy of Texas at Dallas, Richardson, TX
       details: |
           -	Worked with team members from varied educational backgrounds to conduct research science focused on equitable healthcare for all, including supplying data for a paper published by the American Chemical Society.
           - Trained 10 team members across two laboratory settings in various research techniques, typically going from novice to trainer in several weeks. 
@@ -101,12 +101,12 @@ skills:
 
     toolset:
       - name: HTML/CSS
-        level: 15%
-
-      - name: Java
+        level: 20%
+        
+      - name: Javascript & jQuery
         level: 10%
 
-      - name: Javascript & jQuery
+      - name: Java
         level: 10%
 
       - name: Python
