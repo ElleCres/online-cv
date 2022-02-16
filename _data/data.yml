@@ -44,7 +44,7 @@ education:
       time: 2013 - 2016
 
 experiences:
-    - role: Java Developer and Sound Designer
+    - role: Software Developer and Sound Designer
       time: December 2021 - Present
       company: Personal Development, Online
       details: |
@@ -79,6 +79,10 @@ projects:
     title: Project Portfolio
     intro:
     assignments:
+      - title: This Website
+        link: https://github.com/ElleCres/online-cv
+        tagline: "A responsive website created from a Jekyll/Bootstrap Theme. Implemented new functionality and site readability."
+
       - title: Witches' Kitchen
         link: https://github.com/witches-kitchen/WK/commits?author=wallamide
         tagline: "A cottagecore styled magic mod for minecraft (as wallamide)."
