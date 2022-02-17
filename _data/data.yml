@@ -9,8 +9,9 @@ sidebar:
     # Profile information
     avatar: profile.png #need to shrink
     name: Elle Creswell
+    page-name: ellecres.dev
     tagline: Aspiring Developer
-    bio: I'm a generalist so you don't have to be. 
+    bio: Leveraging a diverse background to drive innovation. 
 
     # Sidebar links
     email: ellecres95@gmail.com
@@ -48,8 +49,9 @@ experiences:
       time: December 2021 - Present
       company: Personal Development, Online
       details: |
-          - Built Minecraft mods to learn functional programming in Java with the help of an active, open source modding community.
-          - Worked with a small development team to design sound assets and implement custom Minecraft game engine functions using Java.
+          - Builds Minecraft mods to learn functional programming in Java with the help of an active, open source modding community.
+          - Works with a small development team to design sound assets and implement custom Minecraft game engine functions using Java.
+          - Designs functional websites using open-source code.
     - role: Office Adminstrative Assistant
       time: March 2021 - August 2021
       company: Kathy Buys Houses, Burleson, TX
@@ -121,7 +123,7 @@ skills:
 
       - name: Ableton Live
         level: 70%
-
+ 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>,
     updated by <a href="https://github.com/ElleCres" target="_blank" rel="nofollow">Elle Creswell</a> 
