@@ -7,9 +7,9 @@ sidebar:
     education: true # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    avatar: profile.png #need to shrink
-    name: Elle Creswell
+    avatar: profile.png #need to shrink...?
     page-name: ellecres.dev
+    name: Elle Creswell
     tagline: Aspiring Developer
     bio: Leveraging a diverse background to drive innovation. 
 
@@ -35,6 +35,8 @@ sidebar:
 
       - item: Breaking and troubleshooting software
         link:
+
+about_me: test
 
 education:
     - degree: BS in Biochemistry
