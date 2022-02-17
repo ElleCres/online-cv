@@ -81,7 +81,7 @@ projects:
     assignments:
       - title: This Website
         link: https://github.com/ElleCres/online-cv
-        tagline: "A responsive website created from a Jekyll/Bootstrap Theme. Implemented new functionality and site readability."
+        tagline: "A responsive website created from a Jekyll/Bootstrap Theme. Implemented new functionality and improved site readability."
 
       - title: Witches' Kitchen
         link: https://github.com/witches-kitchen/WK/commits?author=wallamide
