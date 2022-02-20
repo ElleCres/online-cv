@@ -8,11 +8,13 @@ sidebar:
 
     # Profile information
     avatar: profile.png #need to shrink...?
+    profileimgdisc: test1
     page-name: ellecres.dev
     name: Elle Creswell
     tagline: Aspiring Developer
-    bio: Leveraging a diverse background to drive innovation. 
-
+    bio: Leveraging a diverse background to drive innovation.
+    aboutimgdisc: test2
+    
     # Sidebar links
     email: ellecres95@gmail.com
     website: ellecres.dev
