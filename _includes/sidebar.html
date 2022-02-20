@@ -2,13 +2,12 @@
 <div class="sidebar-wrapper">
 
   <div class="profile-container">
-
     {% if sidebar.name %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    <h1 class="name">{{sidebar.name}}</h1>
     {% endif %}
 
     {% if sidebar.name %}
-    <h1 class="name">{{ sidebar.name }}</h1>
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
 
     {% if sidebar.tagline %}
@@ -16,7 +15,7 @@
     {% endif %}
 
     {% if sidebar.bio %}
-    <h5 class="bio">{{ sidebar.bio}}</h5>
+    <p class="bio">{{ sidebar.bio }}</p>
     {% endif %}
 
   </div><!--//profile-container-->
@@ -34,4 +33,12 @@
     {% include about.html %}
   {% endif %}
 
+  <!--<div class="container-block">
+    <h2 class="container-block-title"> Blog </h2>
+    <hr class="bar-posts"></hr>
+    {% for post in site.categories['blog'] limit:4 %}
+      {%include posts.html %}
+    {% endfor %}
+    <div class="posts-link"><h4 id="blog"><a href="/posts/"> More posts </a></h4></div>
+  </div> //blog container-->
 </div><!--//sidebar-wrapper-->
