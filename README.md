@@ -3,7 +3,7 @@
 </a>
 
 ## About
-I'm working on making this website fit my needs and personality. Below are credits, the installation instructions I followed, and the personalization options were provided by my experience editing this site. This page currently contains just my resume but will house more content and have an updated front-end soon. 
+I'm working on making this website fit my needs and personality. Below are theme credits, the installation instructions I followed, and the way I changed the theme. This page currently contains just my resume but will host more content and have an updated front-end as I learn more.  
 
 
 ## Credits
