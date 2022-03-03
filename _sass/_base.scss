@@ -604,6 +604,10 @@ p {
   font-size: 0.8em;
   padding-top: 15px;
 }
+#wcb.wcb-d #wcb_2 {
+  color: $text-color-secondary;
+}
+
 #stop {
   scroll-snap-stop: always;
 }
