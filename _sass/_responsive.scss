@@ -3,7 +3,7 @@
 
   body {
     padding: 0;
-    display: block;
+    //display: block;
   }
   .hero{
     display: block;
@@ -58,7 +58,10 @@
     .profile-container {
       margin-top: 0;
     }
-  
+    
+    .name {
+    }
+
     .avatar{
       max-width: 100px;
     }
@@ -88,7 +91,7 @@
     padding: 30px;
   }
 
-  .wrapper {
+  .wrapper.resume {
     display: block;
   }
 
