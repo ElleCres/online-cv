@@ -1,25 +1,43 @@
 ---
 #Add "layout: compress" here to compress the html code
 ---
+{% assign layout = site.data.data.layout %}
+{% assign sidebar = site.data.data.sidebar %}
+{% assign education = site.data.data.education %}
+{% assign landing = site.data.data.landing %}
+{% assign about_me = site.data.data.about_me %}
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<html lang="en">
 {% include head.html %}
+<!--{% if layout.landing %}
+{% include landing_header.html %}
+{% endif %}
+{% if layout.about_me %}
+<div class="about-wrapper">
+  {% include about_me.html %}
+</div>
+{% endif %}
+{% include navbar.html %} -->
+<hr class="resume-start">
+<div class="wrapper resume">
+  {% include sidebar.html %}
 
-<body>
-  <div class="wrapper">
-    {% include sidebar.html %}
-
-    <div class="main-wrapper">
-        {{ content }}
-    </div>
+  <div class="main-wrapper">
+      {{ content }}
   </div>
+</div>
 
-  {% include footer.html %}
-
+{% include footer.html %}
+{% if site.analytics %}
+<div id="cookie">
+  <input type="checkbox" id="accept" />
+  <!-- Put text in CSS so search engines don't index it
+       This is optional! -->
+  <span></span>
+  <div class="btn btn-success"><label for="accept">Accept</label></div>
+</div>
+{% endif %}
 {% include scripts.html %}
 </body>
-
 </html>
 

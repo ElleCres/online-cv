@@ -8,6 +8,13 @@
 <!-- carbon emission display -->
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
 
-{% if site.analytics %}
-  {% include analytics.html %}
+{% if site.analytics %}  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M0FPTT17EY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M0FPTT17EY');
+</script>
 {% endif %}
