@@ -2,7 +2,7 @@
 
   <div class="profile-container">
     {% if sidebar.name %}
-    <h1 class="name">{{ sidebar.name }}</h1>
+    <h1 class="name">{{ sidebar.name.first }} {{ sidebar.name.last}}</h1>
     {% endif %}
 
     {% if sidebar.name %}
@@ -33,13 +33,5 @@
   {% if sidebar.about %}
     {% include about.html %}
   {% endif %}
-
- <!--<div class="container-block">
-    <h2 class="container-block-title"> Blog </h2>
-    <hr class="bar-posts"></hr>
-    {% for post in site.categories['blog'] limit:4 %}
-      {%include posts.html %}
-    {% endfor %}
-    <div class="posts-link"><h4 id="blog"><a href="/posts/"> More posts </a></h4></div>
-  </div>//blog container-->
+  
 </div><!--//sidebar-wrapper-->

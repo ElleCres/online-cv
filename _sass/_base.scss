@@ -586,6 +586,16 @@ p {
   text-align:center;
   background: rgba(0, 0, 0, 0.6);
 }
+.carbonbadge.wcb-d {
+  #wcb_p {
+    font-size: 0.8em;
+    padding-top: 15px;
+  }
+  #wcb_2 {
+    color: $text-color-secondary;
+  }
+  
+}
 .footer {
   padding-top: 30px;
   scroll-snap-align: end;
@@ -598,15 +608,12 @@ p {
   .fa-heart {
     color: $heart;
   }
+  
+
 
 }
-#wcb_p {
-  font-size: 0.8em;
-  padding-top: 15px;
-}
-#wcb.wcb-d #wcb_2 {
-  color: $text-color-secondary;
-}
+
+
 
 #stop {
   scroll-snap-stop: always;

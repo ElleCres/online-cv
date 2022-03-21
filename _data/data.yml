@@ -1,21 +1,24 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
+# This is a YAML document which allows you to store various types of data. For this site, we use
+# this file to store our resume data in a way that can be used by html files. This allows us
+# to conditionally display our information on our website. All {% if . . . %} statements in our html files point to 
+# individual sections below and allows jekyll to draw the needed information from the section. Edit the below information as needed 
+# but be conscious of the formatting as any miswritten sections and below will no longer work. 
 
 sidebar:
-    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about_page: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    blog: false # set False or comment if you want blog in the sidebar
     education: true # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    avatar: profile.png #need to shrink...?
-    profileimgdisc: test1
+    avatar: profile.png 
     page-name: ellecres.dev
-    name: Elle Creswell
+    name: 
+        first: Elle 
+        last: Creswell
     tagline: Aspiring Developer
     bio: Leveraging a diverse background to drive innovation.
-    aboutimgdisc: test2
     
-    # Sidebar links
+    # Contact Links
     email: ellecres95@gmail.com
     website: ellecres.dev
     linkedin: elle-creswell
@@ -38,8 +41,6 @@ sidebar:
       - item: Breaking and troubleshooting software
         link:
 
-about_me: test
-
 education:
     - degree: BS in Biochemistry
       university: University of Texas at Dallas
@@ -49,19 +50,13 @@ education:
       time: 2013 - 2016
 
 experiences:
-    - role: Software Developer and Sound Designer
-      time: December 2021 - Present
-      company: Personal Development, Online
-      details: |
-          - Builds Minecraft mods to learn functional programming in Java with the help of an active, open source modding community.
-          - Works with a small development team to design sound assets and implement custom Minecraft game engine functions using Java.
-          - Designs functional websites using open-source code.
     - role: Office Adminstrative Assistant
       time: March 2021 - August 2021
       company: Kathy Buys Houses, Burleson, TX
       details: |
-          - Managed scheduling of utility services by phone and online, operated daily financial services using QuickBooks, and managed document filing and inventory for a realty business.
-          - Managed vendor hiring for 6-8 houses at a time with overlapping deadlines and fluctuating company needs.
+          - Multichannel communications with customers and vendors for 6-8 properties at a time.
+          - Managed company financial records using Quickbooks and Notesmith.
+          - 
     - role: Technology Specialist
       time: March 2020 - November 2020
       company: Dr. Lisa Welch for Congress, Tarrant, Wise, and Parker Counties, TX
@@ -81,6 +76,7 @@ experiences:
       details: |
           -	Worked with team members from varied educational backgrounds to conduct research science focused on equitable healthcare for all, including supplying data for a paper published by the American Chemical Society.
           - Trained 10 team members across two laboratory settings in various research techniques, typically going from novice to trainer in several weeks. 
+
 projects:
     title: Project Portfolio
     intro:
@@ -89,11 +85,11 @@ projects:
         link: https://github.com/ElleCres/online-cv
         tagline: "A responsive website created from a Jekyll/Bootstrap Theme. Implemented new functionality and improved site readability."
 
-      - title: Witches' Kitchen
-        link: https://github.com/witches-kitchen/WK/commits?author=wallamide
-        tagline: "A cottagecore styled magic mod for minecraft (as wallamide)."
+#      - title: Witches' Kitchen
+#        link: https://github.com/witches-kitchen/WK/commits?author=wallamide
+#        tagline: "A cottagecore styled magic mod for minecraft."
 
-      - title: Dr. Lisa Welch for Congress
+      - title: Dr. Lisa Welch for Congress Site (unsupported)
         link: https://www.lisawelch.org/
         tagline: "A responsive website created with Squarespace and injected CSS. Front page icons and main color theme were edited by another developer months after initial release."
 
@@ -110,8 +106,8 @@ skills:
     title: Skills &amp; Proficiencies
 
     toolset:
-      - name: HTML/CSS
-        level: 20%
+      - name: HTML/YAML/CSS/SASS
+        level: 40%
         
       - name: Javascript & jQuery
         level: 10%
@@ -122,7 +118,7 @@ skills:
       - name: Python
         level: 5%
 
-      - name: Ruby on Rails
+      - name: Ruby
         level: 5%
 
       - name: Ableton Live
