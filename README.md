@@ -1,6 +1,3 @@
-<a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="25" alt="Jekyll Themes Shield" >
-</a>
 
 ## About
 I'm working on making this website fit my needs and personality. Below are theme credits, the installation instructions I followed, and the way I changed the theme. This page currently contains just my resume but will host more content and have an updated front-end as I learn more.  
