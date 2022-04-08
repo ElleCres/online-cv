@@ -1,31 +1,59 @@
 /* extra small devices (tablets, less than 768px) */
-@media only screen and (max-width: 767px) {
-
+@media only screen and (max-width: 483px) {
+  .sidebar-wrapper {
+    h2 {
+      margin-bottom: 10px !important;
+    }
+    .avatar{
+      max-width: 50% !important;
+    }
+    .about-container {
+      display: block !important;
+      columns: 2;
+      .container-block {
+        width: auto !important;
+        padding: 0 !important;
+      }
+      .lang {
+        padding-bottom: 1rem;
+      }
+    } 
+  }
+}
+@media only screen and (min-width: 484px) {
+}
+@media only screen and (max-width: 768px) {
   body {
     padding: 0;
-    //display: block;
   }
   .sidebar-wrapper {
     position: static;
     width: inherit;
-    .profile-container {
-      margin-top: 0;
+    border-radius: 0 ;
+    .name {
+      margin-top: -5px;
     }
-
-    .avatar{
-      max-width: 100px;
+    .avatar {
+      max-width: 30%;
+    }
+    .about-container {
+      // display: flex;
+      // justify-content: center;
+      .container-block {
+        width: 33%;
+      }
     }
   }
-
-  .main-wrapper {
-    border-radius: 0px 10px 10px 0px;
-    padding: 30px;
-  }
-
-  .resume {
+  .wrapper {
     display: block;
   }
-
+  .main-wrapper {
+    padding: 30px;
+    border-radius: 0 0 10px 0;
+    .section-title{
+      font-size: 2rem;
+    }
+  }
   .main-wrapper .time {
     position: static;
     display: block;
@@ -37,14 +65,14 @@
   }
 }
 /* Small devices (tablets, 768px and up) */
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .skillset .level-title {
     display: inline-block;
-    float: right;
+    float: left;
     width: 30%;
     margin-bottom: 0;
   }
@@ -52,13 +80,9 @@
   .skillset .level-bar {
     display: inline-block;
     width: 70%;
-    float: right;
+    float: left;
     position: relative;
     top: 1px;
-  }
-
-  .posts{
-    display: block;
   }
 }
 

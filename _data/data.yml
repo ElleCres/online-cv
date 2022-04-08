@@ -106,7 +106,7 @@ skills:
     title: Skills &amp; Proficiencies
 
     toolset:
-      - name: HTML/YAML/CSS/SASS
+      - name: HTML/CSS
         level: 40%
         
       - name: Javascript & jQuery
