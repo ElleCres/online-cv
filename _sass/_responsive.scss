@@ -1,6 +1,9 @@
 /* extra small devices (tablets, less than 768px) */
 @media only screen and (max-width: 483px) {
   .sidebar-wrapper {
+    .profile-container {
+      border-radius: 0 0 20px 0;
+    }
     h2 {
       margin-bottom: 10px !important;
     }
@@ -13,6 +16,8 @@
       .container-block {
         width: auto !important;
         padding: 0 !important;
+      .education-container {
+        margin-bottom: 2rem;
       }
       .lang {
         padding-bottom: 1rem;
@@ -28,15 +33,12 @@
   }
   .sidebar-wrapper {
     position: static;
-    //width: inherit;
     border-radius: 0 ;
     .avatar {
       max-width: 30%;
     }
     .about-container {
       display: flex;
-      .education-container {
-        margin-bottom: 1.85rem;
       }
       .container-block {
         width: 33%;
